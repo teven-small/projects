@@ -1,0 +1,1191 @@
+/* 首页样式 */
+::-webkit-scrollbar{
+    width: 4px;
+    height: 8px;
+}
+/*
+  头部样式
+*/
+.top_div{
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 16px;
+}
+.top_div .main{
+    position: relative;
+}
+.top_div a{
+    color: black;
+    margin-right: 10px;
+}
+.official_notice i{
+    width: 870px;
+    height: 40px;
+    line-height: 40px;
+}
+.official_notice marquee{
+    letter-spacing: 1px;
+}
+/*
+  logo、搜索样式
+*/
+.dc_head_search{
+    padding: 14px 0 10px 0;
+    background: #fff;
+}
+.logo_img{
+    margin-right: 10px;
+    height: 70px;
+    width: 70px;
+    background: #2D50A1;
+    display: inline-block;
+    border-radius: 6px;
+}
+.dc_head_search a{
+    margin-right: 22px;
+    color: #B7B7B7;
+}
+.dc_head_search .rt{
+    width: auto;
+}
+.dc_head_search input{
+    padding-left: 32px;
+    position: relative;
+    right: -3px;
+    width: 490px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #2D50A1;
+    border-radius: 6px 0 0 6px;
+    outline: none;
+    vertical-align: top;
+    border-right: none;
+    font-size: 16px;
+}
+.search_btn{
+    display: inline-block;
+    width: 80px;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    background: #2D50A1;
+    text-align: center;
+    letter-spacing: 5px;
+    border-radius: 0 6px 6px 0;
+}
+.logo_title, .logo_title .logo_img{
+    display: inline-block;
+    vertical-align: top;
+}
+.logo_title div:first-child{
+    font-weight: 500;
+    font-size: 34px;
+    letter-spacing:5px;
+}
+.logo_a{
+    font-size: 18px;
+}
+.logo_a span:first-child{
+    margin-right: 8px;
+}
+.logo_title div{
+    color: #2D50A1;
+}
+.link_box{
+    padding-left: 4px;
+}
+
+/* 导航栏 */
+.nav_box{
+    width: 100%;
+    background: #2D50A1;
+}
+.nav_box ul{
+    overflow: hidden;
+}
+.nav_box ul li{
+    width: 170px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.nav_box ul li:hover {
+    color: #CCC129;
+    background: #0B2766;
+}
+.nav_box ul li a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+.nav_box ul li.active{
+    position: relative;
+    color: #CCC129;
+    background: #0B2766;
+}
+.nav_box ul li.active .triangle_top{
+    position: absolute;
+    left: 46%;
+    bottom: 0px;
+    color: #CCC129;
+    width: 0;
+    height: 0;
+    border-width: 6px;
+    border-style: solid;
+    border-color: transparent transparent #CCC129 transparent;
+}
+
+
+/* 首页软件下载区域 */
+.software_list{
+    width: 400px;
+    height: 194px;
+}
+.one{
+    background: url(../images/leftBorder1.png) no-repeat 0 50%;
+    border-radius: 6px;
+}
+.two{
+    background: url(../images/leftBorder2.png) no-repeat 0 50%;
+    border-radius: 6px;
+}
+.three{
+    background: url(../images/leftBorder3.png) no-repeat 0 50%;
+    border-radius: 6px;
+}
+.software_item div:hover p{
+    color: #2D50A1;
+}
+.software_item img{
+    width: 44px;
+    height: 44px;
+}
+.software_item div{
+    width: 100px;
+    height: 97px;
+    padding: 14px 0;
+}
+/* 轮播图、广告 */
+.content{
+    margin-top: 20px;
+    overflow: hidden;
+}
+.content .lt_box{
+    width: 830px;
+}
+.content .rt_box{
+    width: 350px;
+    padding: 4px;
+}
+.rt_box_item{
+    height: 34px;
+    margin-top: 22px;
+}
+.rt_box_item img{
+    display: block;
+    width: 40px;
+    height: 100%;
+}
+.downLoad{
+    width: 100px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    background: #FCC300;
+    vertical-align: top;
+    border-radius: 6px;
+    color: #fff;
+    cursor: pointer;
+}
+.explain{
+    color: #DADADA;
+}
+.toDay_news .left_img_model{
+    overflow: hidden;
+    padding: 20px 0px 12px 10px;
+}
+.left_img_model:not(:last-child){
+    border-bottom: 1px dashed #F2F2F2;
+}
+.toDay_news .left_img_model img{
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-right: 14px;
+}
+.toDay_news .left_img_model .explain_box{
+    width: 120px;
+     
+}
+.explain_box p:first-child{
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+/* 软件分类 */
+.aside_soft{
+    padding: 4px;
+    width: 300px;
+}
+.software_classify{
+    padding: 14px 10px;
+}
+.center_content{
+    width: 510px;
+}
+.sub_title{
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    border-bottom: 1px solid #F3F3F3;
+}
+.sub_title .lt{
+    color: #2D50A1;
+    font-size: 16px;
+}
+.sub_title .rt{
+    color: #B7B7B7;
+    cursor: pointer;
+}
+.software_classify_item{
+    margin-bottom: 26px;
+    border-bottom: 1px dashed #F2F2F2;
+}
+.software_classify_item .s_item{
+    padding-left: 10px;
+}
+.s_item i{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    vertical-align: initial;
+    border-left: 2px solid black;
+}
+.s_item div{
+    padding: 0 15px;
+}
+.software_classify_item p{
+    margin: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+.software_classify_item span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    color:#878787;
+    cursor: pointer;
+}
+.software_classify_item span:not(:nth-child(3n)){
+    margin-right: 28px;
+}
+.software_classify_item span:hover{
+    text-decoration: underline;
+    color: #2D50A1;
+}
+.software_classify_item span.more_btn{
+    margin-right: 14px;
+    float: right;
+    width: auto;
+    cursor: pointer;
+}
+
+/* 中间部分 */
+.software_notice{
+    border-bottom: 2px solid #F2F2F2;
+}
+.software_notice div{
+    width: 125px;
+}
+.software_notice img{
+    width: 66px;
+    height: 66px;
+}
+.software_name{
+    width: 300px;
+}
+.software_notice p {
+    padding-bottom: 5px;
+    width: 44px;
+    margin: 5px auto 0;
+    position: relative;
+    top: 2px;
+}
+.software_notice .active{
+    color: #FE1016;
+    border-bottom: 2px solid #FE1016;
+}
+.hot_notice{
+    padding: 30px 10px 20px 0;
+}
+.headlines{
+    padding-left: 26px;
+    padding-right: 16px;
+}
+.headlines_title{
+    padding: 28px 0;
+}
+.headlines_title img, .headlines_title div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.headlines_title img{
+    width: 52px;
+    height: 52px;
+    margin-right: 14px;
+}
+.headlines_title span{
+    margin-right: 10px;
+    color: #FD4655;
+    font-size: 24px;
+}
+.headlines_title i{
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    background: url(../images/组10.png) no-repeat;
+    vertical-align: top;
+}
+.headlines_content div{
+    padding: 13px 0;
+}
+.headlines_content div span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.discribe{
+    margin-right: 10px;
+    padding-right: 16px;
+    color: #8893E9;
+    border-right: 1px solid #8893E9;
+}
+.software_name, .software_time{
+    color:#7F7F7F;
+}
+.hot_game .game_item{
+    width: 116px;
+    height: 90px;
+    margin-bottom: 34px;
+}
+.hot_game .game_item img{
+    width: 80px;
+    height: 80px;
+}
+/* 今日推荐 */
+.toDay_news{
+    margin-top: 1px;
+}
+.toDay_news img, .toDay_news .lt, .toDay_news .rt{
+    cursor: pointer;
+}
+/* 最近更新 */
+.recent_updates{
+    padding: 20px 10px 20px 20px;
+}
+.recent_updates_item{
+    padding: 17px 0;
+    margin-top: 11px;
+    height: 80px;
+    cursor: pointer;
+}
+.recent_updates_item:not(:last-child){
+    border-bottom: 1px dashed #F2F2F2;
+}
+.recent_updates_item img{
+    width: 46px;
+    height: 46px;
+}
+.recent_updates_item img, .software_down, .software_evaluate{
+    display: inline-block;
+}
+.recent_updates .active{
+    padding: 0;
+}
+.recent_updates .active img{
+    width: 70px;
+    height: 70px;
+    vertical-align: bottom;
+}
+.software_down, .software_evaluate{
+    width: 220px;
+    vertical-align: top;
+    margin-left: 18px;
+}
+.software_evaluate p{
+    margin-bottom: 6px;
+    font-weight: 500;
+    color: #000;
+}
+.software_down p:first-child{
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #000;
+}
+.details_box .lt p{
+    color: #B7B7B7;
+}
+.active .software_detail{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.now_down{
+    height: 38px;
+    width: 82px;
+    line-height: 38px;
+    text-align: center;
+    background: #FCC300;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 4px;
+    margin-right: 10px;
+}
+.active .software_evaluate .software_size{
+    margin-bottom: 0;
+}
+.software_evaluate .details_box .lt{
+    margin-right: 14px;
+}
+
+/* 本周排行下载 */
+.download_item {
+    padding: 15px 8px;
+    cursor: pointer;
+}
+.download_item:not(:last-child){
+    border-bottom: 1px dashed #F2F2F2;
+}
+.download_item span{
+    width: 160px;
+    display: inline-block;
+}
+.download_ranking .download_item span{
+    width: 160px;
+}
+.download_ranking .active{
+    padding-left: 30px;
+}
+.download_ranking .active span{
+    color: #2D50A1;
+}
+.download_item img{
+    margin-right: 14px;
+    vertical-align: middle;
+}
+.ranking{
+    width: 24px;
+    height: 30px;
+}
+.soft_icon{
+    width: 40px;
+    height: 40px;
+}
+
+/* <!-- 推荐下载 --> */
+.recommend_down{
+    overflow: hidden;
+    position: relative;
+}
+.recommend_down ul li{
+    margin-right: 24px;
+    float: left;
+    width: 66px;
+    height: 24px;
+    color: #878787;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.recommend_down ul li.active{
+    color: #2D50A1;
+    border-bottom: 1px solid;
+}
+.recommend_down span{
+    display: inline-block;
+    color: #878787;
+    cursor: pointer;
+    padding: 5px;
+    position: absolute;
+    right: 14px;
+}
+.recommend_down_icon, .software_box ul, .recommend_down_icon ul{
+    overflow: hidden;
+}
+.recommend_down_icon ul li{
+    width: 100px;
+    height: 92px;
+    text-align: center;
+    margin: 0 14px 24px;
+    cursor: pointer;
+}
+.recommend_down_icon ul li p{
+    color: #878787;
+    padding: 4px;
+}
+.recommend_down .lt, .el-tabs{
+    width: 100% !important;
+}
+
+.software_box{
+    padding: 0 30px 24px;
+}
+.software_box ul li{
+    width: 185px;
+    text-align: center;
+}
+.category_name{
+    height: 40px;
+    line-height: 40px;
+    background: #F0F0F0;
+    color: #2D50A1;
+}
+dd{
+    padding: 10px 10px 10px 24px;
+    text-align: left;
+    background: #fff;
+    border-left: 1px solid #DADADA;
+}
+dd{
+    border-bottom: 1px solid #DADADA;
+}
+dd img{
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.software_box ul li:last-child dd{
+    border-right: 1px solid #DADADA;
+}
+
+/* 
+ *
+    软件下载页面
+ * 
+*/
+.down_box_{
+    position: relative;
+    padding: 18px 34px 10px;
+}
+.down_box_ div:not(:first-child){
+    margin-left: 28px;
+}
+.down_box_ img{
+    width: 56px;
+    height: 56px;
+}
+.content1::after{
+    clear: both;
+    content:"";
+    display:block;
+}
+.content1 .lt{
+    width: 254px;
+}
+.content1 .rt_box{
+    width: 920px;
+}
+.section_title div{
+    margin: 8px 6px;
+    display: inline-block;
+    background: #F0F0F0;
+    padding: 10px 0;
+    border-radius: 6px;
+    color: #B2B2B2;
+    cursor: pointer;
+    width: 112px;
+    text-align: center;
+}
+.section_title div:hover{
+    background: #FCC300;
+    color:#fff;
+}
+.section_title .active{
+    background: #FCC300;
+    color:#fff;
+}
+.inline_div{
+    display: inline-block;
+}
+.section_list .lt_img_model{
+    margin: 30px 0;
+    padding-left: 20px;
+}
+.lt_img_model .details{
+    vertical-align: middle;
+    width: 650px;
+    margin-right: 22px;
+}
+.section_list b{
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.down_btn{
+    color: #fff;
+    background: #5477C9;
+    padding: 10px 20px;
+    border-radius: 10px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.model_icon{
+    width: 60px;
+    height: 60px;
+    vertical-align: middle;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.model_icon img{
+    width: 100%;
+    height: 100%;
+}
+.list_soft div{
+    width: 100%;
+    padding: 10px 0;
+    cursor: pointer;
+}
+.list_soft div span:first-child{
+    border-left: 2px solid;
+    padding-left: 20px;
+    margin-left: 10px;
+}
+.list_soft div:hover{
+    color: #fff;
+    background: #5378C9;
+}
+.showMore{
+    text-align: center;
+    padding: 20px;
+}
+.showMore span:hover{
+    color: #2D50A1;
+    cursor: pointer;
+}
+
+/* 热门软件推荐 */
+.hot_software div{
+    width: 82px;
+    margin-top: 14px;
+}
+.hot_software img{
+    width: 50px;
+    height: 50px;
+}
+
+/* 下载详情 */
+.position_title{
+    color: #878787;
+    
+}
+.content_details .rt_box{
+    width: 300px;
+    margin: 0 6px 6px 6px;
+}
+.content_details .lt_box{
+    width: 866px;
+    margin: 0 6px 6px 6px;
+}
+.content_details{
+    overflow: hidden;
+}
+.about_recommend img, .about_recommend span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.about_recommend img{
+    width: 24px;
+    height: 24px;
+    margin-right: 2px;
+}
+.about_recommend span{
+    width: 98px;
+}
+.about_recommend_item{
+    margin: 10px 0;
+}
+.about_recommend_item:nth-child(2n+1){
+    margin-right: 16px;
+    margin-left: 5px;
+}
+.guide div{
+    width: 47%;
+    text-align: center;
+    background: #EFEFEF;
+    color: #A2A2A2;
+    padding: 10px;
+    margin-bottom: 8px;
+}
+.guide div:nth-child(2n+1){
+    margin-right: 8px;
+}
+
+.details_box_lt, .details_box_rt, .details_item p{
+    display: inline-block;
+}
+.details_box_lt{
+    width: 74%;
+    vertical-align: middle;
+}
+.details_box_rt{
+    width: 24%;
+    vertical-align: middle;
+}
+.details_item p:nth-child(2n+1){
+    width: 44%;
+}
+.details_item p:nth-child(2n){
+    width: 54%;
+}
+.details_item p.salfty{
+    width: 90%;
+}
+.details_box_rt div{
+    height: 54px;
+    width: 140px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-size: 100%;
+    cursor: pointer;
+}
+.details_box_rt div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.down_local_btn{
+    background: url(../images/组15.png) no-repeat;
+}
+.down_fast_btn{
+    background: url(../images/组16.png) no-repeat;
+}
+.details_item{
+    margin-top: 20px;
+}
+.details_box_lt h1{
+    color: #2D50A1;
+    margin-bottom: 10px;
+}
+.share i{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: text-bottom;
+}
+.share .qq{
+    background: url('../images/qqkongjian.png') no-repeat;
+}
+.share .xinlang{
+    background: url('../images/xinlang.png') no-repeat;
+}
+.share .c1{
+    background: url('../images/c1.png') no-repeat;
+}
+.share .weixin{
+    background: url('../images/weixin.png') no-repeat;
+}
+.share .c2{
+    background: url('../images/c2.png') no-repeat;
+}
+.share .c3{
+    background: url('../images/c3.png') no-repeat;
+}
+
+/* 下载区域 */
+.down_area_lt, .down_area_rt{
+    width: 48%;
+    display: inline-block;
+    vertical-align: text-top;
+}
+.down_area_lt p{
+    border-left: 3px solid #2D50A1;
+    padding-left: 10px;
+    font-size: 16px;
+}
+.down_box .inline_box div{
+    width: 46%;
+    margin-top: 20px;
+    
+    cursor: pointer;
+    text-align: center;
+}
+.down_box .inline_box div:hover{
+    text-decoration: underline;
+    color: #2D50A1;
+}
+.down_box .inline_box div span{
+    width: 50%;
+    background: #FABD00;
+    padding: 8px 10px;
+    display: inline-block;
+    border-radius: 10px;
+    color: #fff;
+}
+.fast_down_item{
+    text-align: center;
+}
+.ordinary_down_item div{
+    padding-left: 10px;
+    color: #9C9C9C;
+}
+.down_area_rt div{
+    margin: 0 auto;
+    width: 70%;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: #E3E3E3;
+    font-size: 40px;
+    color: #fff;
+}
+
+/* 软件简介 */
+._title_{
+    border-bottom: 1px solid #5A98C9;
+}
+._title_ span{
+    display: inline-block;
+    background: #0C68B5;
+    color: #fff;
+    padding: 4px 24px;
+    letter-spacing: 1px;
+    border-radius: 6px 6px 0 0;
+}
+.software_introduction_box{
+    color: #9C9C9C;
+}
+.software_introduction p{
+    line-height: 22px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.software_history_title{
+    border-left: 3px solid #0051B5;
+    padding-left: 10px;
+    height: 24px;
+    line-height: 24px;
+}
+.software_history_discribe p{
+    text-indent: 2em;
+}
+
+.baidu_salety i{
+    margin-right: 6px;
+    display: inline-block;
+    height: 20px;
+    width: 24px;
+    vertical-align: text-bottom;
+}
+.baidu_salety{
+    color: #18AC20;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 16px;
+}
+.icon_baidu{
+    background: url('../images/baidu.png') no-repeat 100%;
+}
+.icon_360{
+    background: url('../images/360.png') no-repeat 100%;
+}
+.icon_tencent{
+    background: url('../images/diannao.png') no-repeat 100%;
+}
+.icon_jinshan{
+    background: url('../images/jinshan.png') no-repeat 100%;
+}
+.start{
+    margin-right: 5px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+.start_one{
+    background: url('../images/start.png') no-repeat 100%;
+}
+.start_half{
+    background: url('../images/b_start.png') no-repeat 100%;
+}
+
+
+/* 软件下载首页 */
+.lt_side{
+    margin-top: 10px;
+    width: 180px;
+}
+.center_box{
+    width: 750px;
+}
+.rt_side{
+    width: 250px;
+}
+.lt_side div{
+    margin: 10px auto;
+    width: 143px;
+    height: 38px;
+    line-height: 38px;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.lt_side .active{
+    background: #2D50A1;
+    color: #fff;
+}
+.lt_side div:hover{
+    background: #2D50A1;
+    color: #fff;
+}
+.rt_side .side_item{
+    margin-top: 20px;
+    padding: 20px 10px;
+}
+.rt_side .side_item p{
+    margin-top: 5px;
+    padding-left: 30px;
+    position: relative;
+    height: 30px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.side_title{
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D50A1;
+}
+.side_item em{
+    font-style: normal;
+    width: 20px;
+    height: 20px;
+    background: #879299;
+    color: #fffefe;
+    
+    text-align: center;
+    line-height: 20px;
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+.side_item .r1{
+    background: #fa4e57;
+}
+.side_item .r2{
+    background: #fa7a53;
+}
+.side_item .r3{
+    background: #fbc258;
+}
+.side_item p:hover{
+    color: red;
+}
+.center_list{
+    padding: 20px;
+}
+.center_title{
+    height: 34px;
+    line-height: 34px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.center_title span{
+    padding: 0 15px;
+    height: 32px;
+    border-bottom: 3px solid #47b751;
+    display: inline-block;
+}
+.center_item{
+    padding-top: 10px;
+}
+.center_item span{
+    display: inline-block;
+    padding-left: 15px;
+    width: 100px;
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.center_item span:hover{
+    color: #47b751;
+    text-decoration: underline;
+}
+
+
+/* 苹果下载 */
+#dc_apple_down .lt_box{
+    width: 910px;
+    padding: 20px;
+}
+#dc_apple_down .rt_box{
+    width: 270px
+}
+.game_type_child, .game_type, .game_type_child div{
+    display: inline-block;
+}
+.game_top{
+    border-bottom: 1px solid #ddd;
+}
+.game_type{
+    border-right: 1px solid #ddd;
+}
+.game_type div{
+    padding: 0 20px;
+    margin-bottom: 18px;
+}
+.game_btn{
+    width: 84px;
+    padding: 10px 0;
+    display: block;
+    background: #F0F0F0;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.game_type .active{
+    border-right: 1px solid #254791;
+}
+.game_type .active .game_btn{
+    color: #fff;
+    background: #254791;
+}
+.game_type .game_btn:hover{
+    color: #fff;
+    background: #254791;
+}
+.game_type_child{
+    width: 740px;
+    padding-left: 26px;
+    vertical-align: top;
+}
+.game_type_child .game_btn{
+    margin-right: 18px;
+    margin-bottom: 18px;
+}
+.game_type_child .game_btn:hover{
+    color: #fff;
+    background: #FED200;
+}
+.game_type_child .active{
+    color: #fff;
+    background: #FED200;
+}
+.apple_icon{
+    margin-right: 20px;
+}
+.apple_icon img{
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+.apple_content{
+    width: 640px;
+    margin-right: 12px;
+}
+.apple_icon, .apple_content, .apple_down{
+    display: inline-block;
+    vertical-align: middle;
+}
+.apple_content b{
+    font-size: 16px;
+    margin-right: 20px;
+}
+.apple_title{
+    margin-bottom: 10px;
+}
+.version i, .version p{
+    display: inline-block;
+}
+.version{
+    margin-top: 10px;
+}
+.version i{
+    margin-right: 5px;
+    margin-left: 10px;
+    width: 18px;
+    height: 18px;
+    vertical-align: text-bottom;
+    background-size: 100% 100%;
+}
+.version b{
+    font-size: 12px;
+}
+.version span{
+    font-weight: 600;
+}
+.version_pc{
+    background: url('../images/version5.png') no-repeat 100%;
+}
+.version_az{
+    background: url('../images/version1.png') no-repeat 100%;
+}
+.version_apple{
+    background: url('../images/version2.png') no-repeat 100%;
+}
+.version_mac{
+    background: url('../images/version3.png') no-repeat 100%;
+}
+.version_ipad{
+    background: url('../images/version4.png') no-repeat 100%;
+}
+
+
+/* 苹果热门推荐 */
+.apple_recommend, .apple_ranking{
+    padding: 20px 10px;
+}
+.apple_recommend .top_icon_model div{
+    width: 125px;
+    margin: 10px 0;
+}
+.apple_recommend .top_icon_model img, .apple_ranking_item img{
+    width: 50px;
+    height: 50px;
+}
+.apple_recommend .top_icon_model p, .apple_ranking_item div p{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space:nowrap;
+}
+.apple_ranking_item span, .apple_ranking_item div{
+    display: inline-block;
+    vertical-align: top;
+}
+.apple_ranking_item{
+    margin: 24px 0;
+}
+.apple_ranking_item span{
+    font-size: 16px;
+    margin: 0 10px;
+}
+.apple_ranking_item img{
+    margin-right: 10px;
+}
+.apple_ranking_item div{
+    width: 150px;
+}
+.apple_ranking_item .name{
+    font-weight: bold;
+    
+    margin-bottom: 12px;
+}

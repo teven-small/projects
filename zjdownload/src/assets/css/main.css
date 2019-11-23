@@ -1,0 +1,196 @@
+.content-bg {
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0
+}
+
+.content {
+    display: flex
+}
+
+.content .content-left {
+
+    width: 25%;
+    padding: 10px 20px;
+
+}
+
+.content .content-right {
+    width: 75%;
+    padding: 10px 20px;
+    padding-left: 0px;
+}
+
+.zj-logo {
+    text-align: center
+}
+.zj-logo img{
+    width: 250px;
+    height: 240px;
+}
+.bottom-box {
+    background: #fff;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    box-shadow: 0px 0px 10px #b1aaaa;
+
+}
+
+.hot-title {
+    border-bottom: 1px solid #e4e4e4;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #4242c1;
+    font-family: cursive;
+}
+
+.hot-list li {
+    line-height: 20px;
+    font-size: 14px;
+    margin: 12px;
+}
+
+.hot-list li em {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    vertical-align: text-bottom;
+    background-color: #bdbdbd;
+    color: #fff;
+    text-align: center;
+    font-style: normal;
+}
+
+
+.logo-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo-list>div {
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #EDEDED;
+}
+
+.logo-img {
+    width: 65px;
+}
+
+.logo-name {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+.content-list-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 18px;
+    color: #4242c1;
+}
+
+.content-right .logo-img {
+    width: 80px;
+}
+
+/* ............ 排行榜页面样式 ........... */
+.ranking {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ranking>div {
+    width: 32%;
+}
+
+.ranking-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.ranking-title>div {
+    width: 50%;
+}
+
+.wy-title {
+    border-bottom: 1px solid red;
+    text-align: center;
+}
+
+.wy-title span {
+    color: red
+}
+
+.ranking-date {
+    text-align: right
+}
+
+.ranking-date>span {
+    color: #fff;
+    padding: 4px;
+    font-size: 13px;
+}
+
+.weeks {
+    background: #28b426;
+
+}
+
+.month {
+    background: #40383b;
+    position: relative;
+    right: 6px;
+}
+
+.table-box table {
+    width: 100%;
+    font-size: 14px;
+}
+
+.table-box table tr {
+    height: 30px;
+    line-height: 30px;
+}
+
+.table-box table td {
+    text-align: center
+}
+
+/* ............ 游戏专区页面样式 ........... */
+/* .content-right .banner {
+    height: 270px;
+} */
+
+.game .logo-img {
+    width: 255px;
+}
+
+.game .logo-name {
+
+    text-align: left;
+    margin-left: 10px;
+}
+
+.r1{
+    background: linear-gradient(#F7AE2B, #FCF044)
+}
+.r2{
+    background: linear-gradient(#5DD897, #CAF79A)
+}
+.r3{
+    background: linear-gradient(#26D5B8, #94F6DD)
+}
+.logo-list>div:last-child, .logo-list>div:nth-last-child(2), .logo-list>div:nth-last-child(3){
+    border-bottom: 0;
+    margin-bottom: 0;
+}
